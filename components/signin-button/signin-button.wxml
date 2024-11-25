@@ -1,0 +1,4 @@
+<!--components/signin-button.wxml-->
+<button class="button">
+  {{alias}}
+</button>
