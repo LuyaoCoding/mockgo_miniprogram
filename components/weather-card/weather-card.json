@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "signin-button": "/components/signin-button/signin-button",
+    "van-icon": "@vant/weapp/icon/index"
+  }
+}

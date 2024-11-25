@@ -1,0 +1,28 @@
+<!-- 首页签到天气卡片 -->
+<view class="card">
+      <view class="date-container">
+        <view class="cloud front">
+          <view class="left-front"></view>
+          <view class="right-front"></view>
+        </view>
+        <view class="sun sunshine"></view>
+        <view class="sun"></view>
+        <view class="cloud back">
+          <view class="left-back"></view>
+          <view class="right-back"></view>
+        </view>
+      </view>
+
+      <view class="card-header">
+        <text>早上好，欢迎deng_</text>
+        <text>孟闲林提供特殊服务</text>
+        <text>2024-11-11</text>
+      </view>
+
+      <text class="temp">23°</text>
+
+      <view class="temp-scale">
+        <text><van-icon name="close" />未签到</text>
+        <!-- <signin-button>签到领积分</signin-button> -->
+      </view>
+    </view>
