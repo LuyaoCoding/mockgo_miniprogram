@@ -1,62 +1,26 @@
-/**index.wxss**/
-page {
+/* pages/index/index.wxss */
+.container{
+  background-color: #C6E7FF;
+  width: 100wh;
+  padding: 4vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
-.scrollarea {
-  flex: 1;
-  overflow-y: hidden;
-}
-
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
-  width: 80%;
+.notify-container{
+  background-color: #ffffff;
+  margin-top: 3vh;
+  width: 90vw;
+  border-radius: 20px;
+  /* height: 100px; */
+  padding: 4vw 0;
+  font-family: "ping-fang";
+  box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.description-container .notify-title{
+  font-weight: 700;
+  font-size:16px;
 }
-
-.usermotto {
-  margin-top: 200px;
-}
-
-.avatar-wrapper {
-  padding: 0;
-  width: 56px !important;
-  border-radius: 8px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.avatar {
-  display: block;
-  width: 56px;
-  height: 56px;
-}
-
-.nickname-wrapper {
-  display: flex;
-  width: 100%;
-  padding: 16px;
-  box-sizing: border-box;
-  border-top: .5px solid rgba(0, 0, 0, 0.1);
-  border-bottom: .5px solid rgba(0, 0, 0, 0.1);
-  color: black;
-}
-
-.nickname-label {
-  width: 105px;
-}
-
-.nickname-input {
-  flex: 1;
+.description-container{
+  padding: 1vh 4vw;
+  font-size: 14px;
 }
