@@ -3,5 +3,6 @@
   "projectname": "MockGO_V2",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "libVersion": "3.5.8"
 }
