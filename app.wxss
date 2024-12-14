@@ -1,4 +1,13 @@
 /**app.wxss**/
+/* 引入样式 */
+@import "colorui/main.wxss";
+/* 引入图标 */
+@import "colorui/icon.wxss"; 
+@import "colorui/icon-new.wxss";
+@import "colorui/animation.wxss";
+@import "colorui/dark.wxss";
+/* @import "app.css"; 你的项目css */
+
 .container {
   height: 100%;
   display: flex;
